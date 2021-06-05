@@ -48,14 +48,19 @@ h1, h2, h3, h4, h5, h6{
     padding-bottom: 1rem;
 }
 
-#signin h2{
+#signin .logo h2{
     margin-top: 4vh;
-    margin-bottom: 2vh;
+    margin-bottom: 4vh;
     text-align: center;
 }
 
+#signin .logo a{
+    text-decoration: none;
+    color: white;
+}
+
 #signin .logo-first{
-    color: blue;
+    color: #f96816;
 }
 
 #signin form{
@@ -95,6 +100,10 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     text-align: center;
     font-size: 0.9rem;
+}
+
+#signin .links a:hover{
+    color: #ff7b39;
 }
 
 #signin .or{
@@ -169,7 +178,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #showcase .showcase-text{
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 100%;
     color: #fff;
     margin-bottom: 1.5rem;
